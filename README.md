@@ -35,7 +35,7 @@ Let's pretend that never happened.
 $ python redact.py --image ./images/baywatch.jpg
 ```
 
-[[]]
+![Baywatch](../master/images/output.jpg)
 
 
 ## Using Redactor as a module
