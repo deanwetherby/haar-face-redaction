@@ -24,11 +24,9 @@ optional arguments:
 ```
 
 ## Example
-Recently, The Rock (Dwayne Johnson) was awarded a [Razzie](https://www.independent.co.uk/arts-entertainment/films/news/dwayne-johnson-baywatch-razzie-rock-shit-sandwich-a8240786.html) for his role in Baywatch. 
+Recently, The Rock (Dwayne Johnson) was awarded a [Razzie](https://www.independent.co.uk/arts-entertainment/films/news/dwayne-johnson-baywatch-razzie-rock-shit-sandwich-a8240786.html) for his role in Baywatch. Let's pretend that never happened.
 
 ![Baywatch](../master/images/baywatch.jpg)
-
-Let's pretend that never happened.
 
 ```
 $ python redact.py --image ./images/baywatch.jpg
