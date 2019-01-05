@@ -4,7 +4,15 @@ Blur faces in images using OpenCV's haar cascades.
 
 ## Installing
 
-The module redact.py can be run directly or imported in to your own module. When run directly, the redacted output is display using an OpenCV window.
+The module redact.py can be run directly or imported in to your own module. When run directly, the redacted output is display using an OpenCV window. Clone this repo obviously. Create a virtual environment and install the dependencies from requirements.txt.
+
+```
+$ git clone https://github.com/deanwetherby/haar-face-redaction.git
+$ cd haar-face-redaction
+$ python3 -m venv ./venv
+$ source activate venv/bin/activate
+$ pip install -r requirementst.txt
+```
 
 ## Script usage
 
@@ -40,14 +48,12 @@ $ python redact.py --image ./images/baywatch.jpg
 The Redactor class can be imported and used directly in your own application. This will give you more control over things like saving the files as seen below.
 
 ```
-from redact import Redactor
-
-xml_path = "./haarcascade_frontalface_alt.xml"
-image_path = "image.jpg"
-output_path = "output.jpg"
-img = cv2.imread(image_path)
-redactor = Redactor(xml_path)
-redacted_frame = redactor.redact_frame(img)
-cv2.imwrite(output_path, redacted_frame) 
-
+>>> from redact import Redactor
+>>> xml_path = "./haarcascade_frontalface_alt.xml"
+>>> image_path = "image.jpg"
+>>> output_path = "output.jpg"
+>>> img = cv2.imread(image_path)
+>>> redactor = Redactor(xml_path)
+>>> redacted_frame = redactor.redact_frame(img)
+>>> cv2.imwrite(output_path, redacted_frame) 
 ```
