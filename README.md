@@ -23,6 +23,7 @@ optional arguments:
   -x XML, --xml XML     Classifer xml path
 ```
 
+## Example
 Recently, The Rock (Dwayne Johnson) was awarded a [Razzie](https://www.independent.co.uk/arts-entertainment/films/news/dwayne-johnson-baywatch-razzie-rock-shit-sandwich-a8240786.html) for his role in Baywatch. 
 
 ![Baywatch](../master/images/baywatch.jpg)
