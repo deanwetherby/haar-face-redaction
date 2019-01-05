@@ -27,7 +27,7 @@ Recently, The Rock (Dwayne Johnson) was awarded a Razzie for his role in Baywatc
 
 https://www.independent.co.uk/arts-entertainment/films/news/dwayne-johnson-baywatch-razzie-rock-shit-sandwich-a8240786.html
 
-![Baywatch](https://raw.githubusercontent.com/deanwetherby/haar-face-redaction/blob/master/images/baywatch.jpg)
+![Baywatch](../master/images/baywatch.jpg)
 
 Let's pretend that never happened.
 
