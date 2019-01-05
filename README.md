@@ -1,4 +1,4 @@
-# haar-redactor
+# haar-face-redaction
 
 Blur faces in images using OpenCV's haar cascades.
 
