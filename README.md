@@ -9,15 +9,15 @@ The module redact.py can be run directly or imported in to your own module. When
 ```
 $ git clone https://github.com/deanwetherby/haar-face-redaction.git
 $ cd haar-face-redaction
-$ python3 -m venv ./venv
+$ python3 -m venv venv
 $ source activate venv/bin/activate
-$ pip install -r requirementst.txt
+(venv) $ pip install -r requirementst.txt
 ```
 
 ## Script usage
 
 ```
-$ python redact.py -h
+(venv) $ python redact.py -h
 usage: redact.py [-h] (-i IMAGE | -v VIDEO | -w [WEBCAM]) [-x XML]
 
 optional arguments:
@@ -37,7 +37,7 @@ Recently, The Rock (Dwayne Johnson) was awarded a [Razzie](https://www.independe
 ![Baywatch](../master/images/baywatch.jpg)
 
 ```
-$ python redact.py --image ./images/baywatch.jpg
+(venv) $ python redact.py --image ./images/baywatch.jpg
 ```
 
 ![Baywatch](../master/images/output.jpg)
