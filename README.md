@@ -11,7 +11,7 @@ $ git clone https://github.com/deanwetherby/haar-face-redaction.git
 $ cd haar-face-redaction
 $ python3 -m venv venv
 $ source activate venv/bin/activate
-(venv) $ pip install -r requirementst.txt
+(venv) $ pip install -r requirements.txt
 ```
 
 ## Script usage
